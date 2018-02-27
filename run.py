@@ -15,7 +15,7 @@ import sys
 import time
 
 def run_command(command):
-    print command
+#    print command
     subprocess.call(command, shell=True)
 
 def parse_args():

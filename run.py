@@ -71,8 +71,8 @@ def parse_args():
     return args
 
 def run_jmeter(arguments):
-    jmeter_dir = find_executable('jmeter')
-    jmeter_dir_bin = jmeter_dir[:-len("/jmeter")]
+#     jmeter_dir = find_executable('jmeter')
+    jmeter_dir_bin = ~/Downloads/apache-jmeter-3.3/bin
 
     if (os.environ.has_key('BUILD_NUMBER')):
         build_number = os.environ['BUILD_NUMBER']

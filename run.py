@@ -95,7 +95,7 @@ def run_jmeter(arguments):
         -JBUILD_NUMBER=''' + build_number
         #-JDELAY=$delay \\
     command = Template(template).substitute(arguments)
-    print "Build number - " + build_number
+    print (Build number - ) + build_number
     run_command(command)
 
 

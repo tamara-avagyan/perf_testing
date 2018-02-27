@@ -21,4 +21,5 @@ jobs:
       - checkout
       - run:
           name: "install dependencies"
-          command: "python run.py login.jmx qa.properties"
+          command: "whoami"
+          # command: "python run.py login.jmx qa.properties"

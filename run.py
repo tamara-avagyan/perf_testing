@@ -104,9 +104,9 @@ def main():
     if not os.path.exists(args.results):
         os.makedirs(args.results)
     start_time = datetime.datetime.now()
-    print "waiting " + args.delay + " min..."
+    print ("waiting " + args.delay + " min...")
     time.sleep(60 * float(args.delay))  # Delay by minute before testing
-    print "end waiting ... "
+    print ("end waiting ... ")
     run_jmeter(args.__dict__)
 
 

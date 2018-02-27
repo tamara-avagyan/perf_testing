@@ -20,5 +20,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install dependencies
-          command: python run.py login.jmx qa.properties
+          name: "install dependencies"
+          command: "python run.py login.jmx qa.properties"

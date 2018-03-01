@@ -23,5 +23,5 @@ jobs:
           name: "install dependencies"
           command: "echo $CIRCLE_NODE_INDEX"
           command: "cat /proc/sys/kernel/hostname"
-          command: "hostnamectl"
+          command: "ls -la /usr/bin"
           # command: "python run.py login.jmx qa.properties"

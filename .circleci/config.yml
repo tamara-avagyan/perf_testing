@@ -21,7 +21,8 @@ jobs:
       - checkout
       - run:
           name: "install dependencies"
-          command: "echo $CIRCLE_NODE_INDEX"
-          command: "cat /proc/sys/kernel/hostname"
-          command: "cat /etc/hostname"
+          command: |
+            echo $CIRCLE_NODE_INDEX
+            cat /proc/sys/kernel/hostname
+            cat /etc/hostname
           # command: "python run.py login.jmx qa.properties"

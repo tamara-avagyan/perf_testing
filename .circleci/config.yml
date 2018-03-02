@@ -25,4 +25,5 @@ jobs:
             echo $CIRCLE_NODE_INDEX
             cat /proc/sys/kernel/hostname
             cat /etc/hostname
+            pwd
           # command: "python run.py login.jmx qa.properties"
